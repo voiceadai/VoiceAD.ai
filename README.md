@@ -40,10 +40,12 @@ We will be using git throughout the semester.  Each project much be forked and 
 
 - [ ] Fork and clone this repo: https://github.com/BigKnell/marketing-website
 
-- [ ] You have been provided a [bare bones website starter folder](website).  Use index.html as a starting point for your HTML and index.css for your CSS
+- [ ] You have been provided a [bare bones website starter folder (website folder)](website).  Use index.html as a starting point for your HTML and index.css for your CSS
 
 - [ ] Build your website following the project requirements as your guide
 
 - [ ] Provide the URL of the website you mimicked at the bottom of the readme file
 
 - [ ] When you have completed the website, submit your repository URL
+
+The URL you used for layout is: 
