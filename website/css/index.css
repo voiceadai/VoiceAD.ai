@@ -64,6 +64,53 @@ header {
 	margin-left: 20px;
 }
 
+/* Títulos */
+h1,
+h2 {
+	font-family: 'baskervville-italic', sans-serif;
+	/* Cambia la fuente */
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 30px;
+}	
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'baskervville-italic', sans-serif;
+	/* Cambia la fuente */
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-family: 'baskervville-italic', sans-serif;
+		font-weight: bold;
+		margin-top: 0;
+		margin-bottom: 30px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+h5 {
+	font-size: 16px;
+}
+
+h6 {
+	font-size: 14px;
+}
+
 /* Contenido principal */
 .main {
 	grid-column: 1 / -1;
