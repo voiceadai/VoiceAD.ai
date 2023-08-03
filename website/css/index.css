@@ -1,67 +1,104 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+/* Estilos generales */
+* {
+	box-sizing: border-box;
+}
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
 	margin: 0;
 	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+	background-color: #fff;
+	color: #333;
 }
 
-/* Start your code here: */
-html {
-	font-size: 62.5%;
+a {
+	color: #000;
+	text-decoration: none;
 }
 
+a:hover {
+	text-decoration: underline;
+}
+
+/* Contenedor principal */
 .container {
-	max-width: 800px;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-gap: 20px;
+	max-width: 1200px;
 	margin: 0 auto;
-	font-size: 2rem;
+	padding: 20px;
 }
 
-h1 {
-	font-size: 4rem;
+/* Encabezado */
+header {
+	grid-column: 1 / -1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	background-color: #fff;
+	color: #333;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 
-h1,h2,h3,h4 {
-	margin: 20px 0;
+.logo img {
+	height: 50px;
+	width: auto;
+}
+
+.header-logo {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.header-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-nav a {
+	margin-left: 20px;
+}
+
+/* Contenido principal */
+.main {
+	grid-column: 1 / -1;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 20px;
+	padding: 20px;
+}
+
+.main-card {
+	border: 1px solid #e1e4e8;
+	border-radius: 6px;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.main-card h2 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.main-card p {
+	font-size: 16px;
+	color: #586069;
+	margin-bottom: 20px;
+}
+
+/* Pie de página */
+.footer {
+	grid-column: 1 / -1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	background-color: #f6f8fa;
+	color: #586069;
 }
