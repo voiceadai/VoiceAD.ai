@@ -5,7 +5,7 @@
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 30px;
+	font-size: 15px;
 	line-height: 1.5;
 	margin: 0;
 	padding: 0;
@@ -71,18 +71,11 @@ h2 {
 	/* Cambia la fuente */
 	font-weight: bold;
 	margin-top: 0;
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 }	
 h3,
 h4,
 h5,
-h6 {
-	font-family: 'baskervville-italic', sans-serif;
-	/* Cambia la fuente */
-	font-weight: bold;
-	margin-top: 0;
-	margin-bottom: 20px;
-}
 
 h1 {
 	font-size: 36px;
@@ -92,24 +85,13 @@ h2 {
 	font-family: 'baskervville-italic', sans-serif;
 		font-weight: bold;
 		margin-top: 0;
-		margin-bottom: 30px;
+		margin-bottom: 25px;
 }
 
 h3 {
-	font-size: 24px;
-}
-
-h4 {
 	font-size: 20px;
 }
 
-h5 {
-	font-size: 16px;
-}
-
-h6 {
-	font-size: 14px;
-}
 
 /* Contenido principal */
 .main {
@@ -129,12 +111,12 @@ h6 {
 }
 
 .main-card h2 {
-	font-size: 40px;
+	font-size: 25px;
 	margin-bottom: 10px;
 }
 
 .main-card p {
-	font-size: 20px;
+	font-size: 15px;
 	color: #586069;
 	margin-bottom: 20px;
 }
@@ -146,6 +128,7 @@ ul li {
 
 /* Pie de página */
 .footer {
+	font-size: 15px;
 	grid-column: 1 / -1;
 	display: flex;
 	justify-content: center;
